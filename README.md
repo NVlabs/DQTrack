@@ -117,7 +117,7 @@ We provide results on nuScenes *val* set with pretrained models. All the models 
 
 ## LICENSE
 
-Copyright © 2022, NVIDIA Corporation. All rights reserved.
+Copyright © 2023, NVIDIA Corporation. All rights reserved.
 
 This work is made available under the Nvidia Source Code License-NC. Click here to view a copy of this license.
 
