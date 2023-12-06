@@ -301,5 +301,5 @@ checkpoint_config = dict(max_keep_ckpts=5)
 
 find_unused_parameters=True #### when use checkpoint, find_unused_parameters must be False
 runner = dict(type='EpochBasedRunner', max_epochs=total_epochs)
-load_from='ckpts/pretrain/petrv2_vovnet_320_800_train.pth' # download from https://drive.google.com/file/d/1-afU8MhAf92dneOIbhoVxl_b72IAWOEJ/view?usp=sharing
+load_from='ckpts/pretrain/petrv2_vovnet_320_800_train.pth' # download from https://drive.google.com/file/d/1tv_D8Ahp9tz5n4pFp4a64k-IrUZPu5Im/view?usp=sharing
 fp16 = dict(loss_scale=32.)
