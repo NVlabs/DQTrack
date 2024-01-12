@@ -6,7 +6,7 @@
 </div><br/>
 
 
-This project provides an implementation for the ICCV 2023 paper "[End-to-end 3D Tracking with Decoupled Queries]((https://openaccess.thecvf.com/content/ICCV2023/papers/Li_End-to-end_3D_Tracking_with_Decoupled_Queries_ICCV_2023_paper.pdf))" based on [mmDetection3D](https://github.com/open-mmlab/mmdetection3d).
+This project provides an implementation for the ICCV 2023 paper "[End-to-end 3D Tracking with Decoupled Queries](https://openaccess.thecvf.com/content/ICCV2023/papers/Li_End-to-end_3D_Tracking_with_Decoupled_Queries_ICCV_2023_paper.pdf)" based on [mmDetection3D](https://github.com/open-mmlab/mmdetection3d).
 In this work, we propose a simple yet effective framework for 3D object tracking, termed DQTrack. Specifically, it utilizes decoupled queries to address the task conflict representation in previous query-based approaches.
 With the designed task-specific queries, DQTrack enhances the query capability while maintaining a compact tracking pipeline.
 
@@ -133,7 +133,6 @@ If this work is helpful for your research, please consider citing:
   booktitle={IEEE/CVF International Conference on Computer Vision (ICCV)},
   year={2023}
 }
-
 ```
 
 ## Acknowledgement
