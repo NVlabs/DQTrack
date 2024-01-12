@@ -113,7 +113,7 @@ We provide results on nuScenes *val* set with pretrained models. All the models 
 |[DQTrack-Stereo](projects/configs/dqtrack/bevstereo_r101_fb3_size_512_1408_dq.py)| R101 | Stereo | 512x1408 | 40.7% | 1.317 |
 |[DQTrack-PETRV2](projects/configs/dqtrack/petrv2_vov99_fb3_320_800_dq.py)| V2-99 | PETRV2 | 320x800 | 44.4% | 1.252 |
 
-## LICENSE
+## License
 
 Copyright © 2023, NVIDIA Corporation. All rights reserved.
 
