@@ -1,14 +1,12 @@
 [![NVIDIA Source Code License](https://img.shields.io/badge/license-NSCL-blue.svg)](LICENSE)
-# DQTrack
-
-## End-to-end 3D Tracking with Decoupled Queries
+# End-to-end 3D Tracking with Decoupled Queries
 
 <div align="center">
   <img src="docs/dqtrack.png"/>
 </div><br/>
 
 
-This project provides an implementation for the ICCV 2023 paper "End-to-end 3D Tracking with Decoupled Queries" based on [mmDetection3D](https://github.com/open-mmlab/mmdetection3d).
+This project provides an implementation for the ICCV 2023 paper "[End-to-end 3D Tracking with Decoupled Queries]((https://openaccess.thecvf.com/content/ICCV2023/papers/Li_End-to-end_3D_Tracking_with_Decoupled_Queries_ICCV_2023_paper.pdf))" based on [mmDetection3D](https://github.com/open-mmlab/mmdetection3d).
 In this work, we propose a simple yet effective framework for 3D object tracking, termed DQTrack. Specifically, it utilizes decoupled queries to address the task conflict representation in previous query-based approaches.
 With the designed task-specific queries, DQTrack enhances the query capability while maintaining a compact tracking pipeline.
 
@@ -123,7 +121,20 @@ This work is made available under the Nvidia Source Code License-NC. Click here 
 
 The pre-trained models are shared under CC-BY-NC-SA-4.0. If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
 
-For business inquiries, please visit our website and submit the form: NVIDIA Research Licensing
+For business inquiries, please visit our website and submit the form: [NVIDIA Research Licensing](https://www.nvidia.com/en-us/research/inquiries/)
+
+## Citation
+If this work is helpful for your research, please consider citing:
+
+```
+@inproceedings{li2023end,
+  title={End-to-end 3D Tracking with Decoupled Queries},
+  author={Li, Yanwei and Yu, Zhiding and Philion, Jonah and Anandkumar, Anima and Fidler, Sanja and Jia, Jiaya and Alvarez, Jose},
+  booktitle={IEEE/CVF International Conference on Computer Vision (ICCV)},
+  year={2023}
+}
+
+```
 
 ## Acknowledgement
 We would like to thank the authors of [DETR3D](https://github.com/WangYueFt/detr3d), [MUTR3D](https://github.com/a1600012888/MUTR3D), [UVTR](https://github.com/dvlab-research/UVTR), [PETR](https://github.com/megvii-research/PETR), and [BEVStereo](https://github.com/Megvii-BaseDetection/BEVStereo) for their open-source release.
